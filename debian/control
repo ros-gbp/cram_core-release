@@ -1,0 +1,12 @@
+Source: ros-hydro-cram-math
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-alexandria, ros-hydro-catkin, ros-hydro-gsll, sbcl
+Homepage: http://cram-project.org
+Standards-Version: 3.9.2
+
+Package: ros-hydro-cram-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-alexandria, ros-hydro-gsll, sbcl
+Description: Math utilities. This includes functions for sampling from arbitrary probability distributions and utilities to work with poses, vectors and quaternions.
