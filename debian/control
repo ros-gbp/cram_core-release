@@ -1,0 +1,12 @@
+Source: ros-hydro-cram-core
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://cram-project.org
+Standards-Version: 3.9.2
+
+Package: ros-hydro-cram-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cram-designators, ros-hydro-cram-execution-trace, ros-hydro-cram-language, ros-hydro-cram-math, ros-hydro-cram-process-modules, ros-hydro-cram-projection, ros-hydro-cram-reasoning, ros-hydro-cram-test-utilities, ros-hydro-cram-utilities
+Description: A set of libraries for implementing AI enabled robot control programs.
