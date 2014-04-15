@@ -1,0 +1,12 @@
+Source: ros-groovy-cram-math
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-alexandria, ros-groovy-catkin, ros-groovy-gsll, sbcl
+Homepage: http://cram-project.org
+Standards-Version: 3.9.2
+
+Package: ros-groovy-cram-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-alexandria, ros-groovy-gsll, sbcl
+Description: Math utilities. This includes functions for sampling from arbitrary probability distributions and utilities to work with poses, vectors and quaternions.
