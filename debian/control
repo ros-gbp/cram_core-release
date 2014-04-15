@@ -1,0 +1,12 @@
+Source: ros-groovy-cram-process-modules
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-alexandria, ros-groovy-catkin, ros-groovy-cram-designators, ros-groovy-cram-language, ros-groovy-cram-reasoning, ros-groovy-cram-utilities, ros-groovy-lisp-unit, sbcl
+Homepage: http://cram-project.org
+Standards-Version: 3.9.2
+
+Package: ros-groovy-cram-process-modules
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-alexandria, ros-groovy-cram-designators, ros-groovy-cram-language, ros-groovy-cram-reasoning, ros-groovy-cram-utilities, ros-groovy-lisp-unit, sbcl
+Description: A common interface definition for lower level control routines.
