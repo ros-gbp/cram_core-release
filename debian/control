@@ -1,0 +1,12 @@
+Source: ros-groovy-cram-designators
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-alexandria, ros-groovy-catkin, ros-groovy-cram-language, ros-groovy-cram-reasoning, ros-groovy-cram-utilities, ros-groovy-lisp-unit, ros-groovy-trivial-garbage, sbcl
+Homepage: http://cram-project.org
+Standards-Version: 3.9.2
+
+Package: ros-groovy-cram-designators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-alexandria, ros-groovy-cram-language, ros-groovy-cram-reasoning, ros-groovy-cram-utilities, ros-groovy-lisp-unit, ros-groovy-trivial-garbage, sbcl
+Description: cram_designators defines the protocol for designators and provides an implementation for location, object and action designators.
