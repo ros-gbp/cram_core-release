@@ -1,0 +1,12 @@
+Source: ros-groovy-cram-reasoning
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-alexandria, ros-groovy-catkin, ros-groovy-cram-utilities, ros-groovy-lisp-unit, sbcl
+Homepage: http://cram-project.org
+Standards-Version: 3.9.2
+
+Package: ros-groovy-cram-reasoning
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-alexandria, ros-groovy-cram-utilities, ros-groovy-lisp-unit, sbcl
+Description: This package implements a simple interpreter for a Prolog-like language and an implementation of the RETE algorithm.
